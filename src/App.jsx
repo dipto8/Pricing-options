@@ -1,5 +1,6 @@
 import Nav from "./components/DaisyNav/Nav"
 import NavBar from "./components/Navbar/NavBar"
+import PriceOptions from "./components/PriceOptions/PriceOptions"
 
 
 
@@ -12,7 +13,11 @@ function App() {
     
       <NavBar></NavBar>
 
-      <Nav></Nav>
+      <div className="">
+        <PriceOptions> </PriceOptions>
+      </div>
+
+      {/* <Nav></Nav> */}
 
       
 
