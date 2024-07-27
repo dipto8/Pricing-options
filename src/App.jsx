@@ -12,6 +12,8 @@ function App() {
     
       <NavBar></NavBar>
 
+      <Nav></Nav>
+
       
 
     </>
